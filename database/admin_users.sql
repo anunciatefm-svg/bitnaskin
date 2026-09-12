@@ -1,0 +1,4 @@
+-- Tabla existente utilizada:
+-- public.admin_users
+-- user_id referencia auth.users(id)
+-- rol controla permisos administrativos

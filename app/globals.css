@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+  --bitna-primary: #E98C87;
+  --bitna-soft: #F7D9D5;
+  --bitna-background: #FFF9F6;
+  --bitna-text: #2B2B2B;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bitna-background);
+  color: var(--bitna-text);
+}
